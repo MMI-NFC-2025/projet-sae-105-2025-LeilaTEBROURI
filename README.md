@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : TEBROURI
+- PRÉNOM : Leila
+- GROUPE : C2
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/wVYqeltnKmfKpXW5MdJwql/PROJET-NETTIE-STEVENS?node-id=11-2&t=xThzMEuiKOJQrxlE-1

@@ -1,0 +1,36 @@
+:root {
+    /* couleurs */
+    --article: #921d00;
+    --gris: #696969;
+    --main-background-color: #faf5e6;
+    --main-pop-of-color: #de2c00;
+    --noir-de-base: #000000;
+
+
+    /* police */
+    --body: Poppins;
+    --titles: Merriweather;
+
+    /* taille des typos */
+    ---text-mentions--legales-: 8px;
+    ---text--footer-: 10px;
+    ---text-secondairy--info-: 10px;
+    ---text--s-: 13px;
+    ---text--xl-: 15px;
+    ---text--menu-: 18px;
+    ---text--2xl-: 20px;
+    ---text--3xl-: 30px;
+
+    /* space */
+    --space-sm: 0.125rem;
+    --space-base: 0.25rem;
+    --space-unit: 0.25rem;
+    --space-md: 0.5rem;
+    --space-lg: 0.75rem;
+    --space-xl: 1rem;
+    --space-2xl: 1.25rem;
+    --space-3xl: 1.5rem;
+    --space-4xl: 2rem;
+    --space-5xl: 2.5rem;
+    --space-6xl: 3.25rem;
+}
