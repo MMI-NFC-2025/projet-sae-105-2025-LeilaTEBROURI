@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NETTIEVERSE - Accueil</title>
+    <title>NETTIEVERSE - À propos</title>
     <meta name="description"
-        content="Nettieverse est un espace dédié aux femmes de science oubliées, celles dont les découvertes ont souvent été effacées ou attribuées à d’autres. Découvrez leurs histoires inspirantes.">
+        content=" Découvrez l'histoire et la mission de Nettieverse, un site dédié à la reconnaissance des femmes de science oubliées et à la sensibilisation à l'effet Matilda. Apprenez-en plus sur notre équipe et nos objectifs.">
 
     <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
@@ -23,18 +23,22 @@
 
     <link rel="stylesheet" href="/src/css/style.css">
     <script type="module" src="./src/js/script.js"></script>
+
 </head>
 
 <body class="page page--home">
     <header class="header">
         <div class="header__bar">
             <div class="header__logo">
-                <img class="header__logo-image" src="/assets/img/logonettieavecnomdusite1.avif" alt="Logo Nettieverse">
+                <a href="/fr/index.html" class="header__logo-link">
+                    <img class="header__logo-image" src="/assets/img/logonettieavecnomdusite1.avif"
+                        alt="Logo Nettieverse">
+                </a>
             </div>
             <div class="header__controls">
                 <div class="header__language">
-                    <a href="/en/index.html" class="header__language-option header__language-option--inactive">ENG</a>
-                    <a href="/fr/index.html" class="header__language-option header__language-option--active">FR</a>
+                    <a href="/en/about.html" class="header__language-option header__language-option--inactive">ENG</a>
+                    <a href="/fr/apropos.html" class="header__language-option header__language-option--active">FR</a>
                 </div>
                 <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false"
                     aria-controls="mainNav">
@@ -65,56 +69,48 @@
         </ul>
     </nav>
     <main class="main">
-        <section class="hero">
-            <h1 class="hero__title">Redécouvrez celles que l'histoire a oubliées"</h1>
-            <h2 class="hero__subtitle">Nettieverse, c’est quoi ?</h2>
-            <p class="hero__intro">Nettieverse est un espace dédié aux femmes de science oubliées, celles dont les
-                découvertes ont souvent été effacées ou attribuées à d’autres. Le site tire son nom de Nettie Stevens,
-                la généticienne qui a découvert les chromosomes X et Y, mais dont le nom est resté dans l’ombre.</p>
-            <div class="hero__cta">
-                <button class="hero__button button">En savoir plus</button>
-                <img class="hero__arrow" src="/assets/img/Arrow1.svg" alt="arrow icon">
-            </div>
-            <p class="hero__description">
-                À travers des articles, des portraits et des analyses de films ou de livres, Nettieverse redonne vie à
-                ces chercheuses et à leurs histoires. L’objectif est simple : rendre visibles celles qui ont changé la
-                science sans jamais être reconnues.
-                Ici, on parle de passion, de curiosité, d’injustice, mais aussi d’espoir et d’inspiration. Parce
-                qu’avant d’être effacées, ces femmes ont avant tout fait avancer le monde.
+        <header class="about__header">
+            <h1 class="about__title">À propos de Nettieverse</h1>
+        </header>
+        <section class="about__section about__section--project">
+            <h2 class="about__section-title">Le projet</h2>
+            <figure class="about__figure">
+                <img class="about__image" src="/assets/img/logo-nettie-rouge.avif" alt="logo nettieverse rouge">
+                <figcaption class="about__figcaption"></figcaption>
+            </figure>
+            <p class="about__text">
+                Nettieverse est un projet réalisé dans le cadre de ma première année en MMI (Métiers du Multimédia et de
+                l’Internet. L’objectif de ce travail était de concevoir un site web mobile autour d’une Matilda, des
+                femmes de
+                sciences oubliées, écrire des articles et mettre en avant des livres et des films partageant la même
+                thématique, tout en intégrant des contenus adaptés au web éditorial.
+            </p>
+            <p class="about__text">
+                La chercheuse mise en avant dans mon projet est Nettie Stevens, une biologiste et généticienne
+                américaine du
+                début du XXᵉ siècle, connue pour avoir découvert le rôle des chromosomes X et Y dans la détermination du
+                sexe.
+            </p>
+            <p class="about__text">
+                Le logo, représentant une silhouette stylisée de Nettie Stevens accompagnée de symboles chromosomiques,
+                traduit cette volonté de relier science et mémoire dans un univers visuel à la fois sobre et moderne.
             </p>
         </section>
-        <section class="discover">
-            <h2 class="discover__title">Découvrez aussi...</h2>
-            <div class="discover__grid">
-                <article class="discover-card">
-                    <img class="discover-card__image" src="/assets/img/nettie1.avif" alt="Portrait de Nettie Stevens">
-                    <div class="discover-card__body">
-                        <h6 class="discover-card__tag">Article</h6>
-                        <p class="discover-card__text">Nettie Stevens : la femme qui a découvert les chromosomes X et Y,
-                            mais que l’histoire a oubliée</p>
-                    </div>
-                    <img class="discover-card__image" src="/assets/img/effet-matilda.avif"
-                        alt="Illustration effet Matilda">
-                    <div class="discover-card__body">
-                        <h6 class="discover-card__tag">Article</h6>
-                        <p class="discover-card__text">Redonner voix aux femmes de science : l’importance de raconter
-                            leurs histoires</p>
-                    </div>
-                    <img class="discover-card__image" src="/assets/img/radioactivr-movie1.avif"
-                        alt="Affiche du film Radioactive">
-                    <div class="discover-card__body">
-                        <h6 class="discover-card__tag">Article</h6>
-                        <p class="discover-card__text">Radioactive : le film qui redonne vie à Marie Curie</p>
-                    </div>
-                    <img class="discover-card__image" src="/assets/img/femmesdesciences-annacabanel1.avif"
-                        alt="Couverture Femme et science">
-                    <div class="discover-card__body">
-                        <h6 class="discover-card__tag">Article</h6>
-                        <p class="discover-card__text">Objet BU : Femme et science : redonner leur place aux chercheuses
-                        </p>
-                    </div>
-                </article>
-            </div>
+        <section class="about__section about__section--author">
+            <h2 class="about__section-title">Qui suis-je ?</h2>
+            <figure class="about__figure">
+                <img class="about__image" src="/assets/img/logo-mmi.avif" alt="logo de la formation MMI de montbéliard">
+                <figcaption class="about__figcaption"></figcaption>
+            </figure>
+            <p class="about__text">Je m’appelle Leila Tebrouri et je suis étudiante en première année de MMI. Je
+                m’intéresse
+                particulièrement à la création numérique et au développement web, deux domaines qui me permettent de
+                transformer des idées en expériences visuelles et interactives.</p>
+            <p class="about__text">Ce projet m’a permis de mettre en pratique mes compétences en design web, intégration
+                responsive, rédaction éditoriale et création visuelle. Même s’il s’agit d’un projet universitaire, j’ai
+                voulu
+                en faire un espace personnel et immersif, à la fois créatif et engagé, qui met en lumière des femmes
+                inspirantes à travers le code et le design.</p>
         </section>
     </main>
     <footer class="footer">

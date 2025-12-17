@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NETTIEVERSE - Accueil</title>
+    <title>NETTIEVERSE - Contact</title>
     <meta name="description"
-        content="Nettieverse est un espace dédié aux femmes de science oubliées, celles dont les découvertes ont souvent été effacées ou attribuées à d’autres. Découvrez leurs histoires inspirantes.">
+        content=" Contactez-nous pour toute question, suggestion ou retour concernant Nettieverse. Nous serions ravis de vous lire et d'échanger avec vous sur les femmes de science oubliées et l'effet Matilda.">
 
     <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
@@ -23,18 +23,22 @@
 
     <link rel="stylesheet" href="/src/css/style.css">
     <script type="module" src="./src/js/script.js"></script>
+
 </head>
 
 <body class="page page--home">
     <header class="header">
         <div class="header__bar">
             <div class="header__logo">
-                <img class="header__logo-image" src="/assets/img/logonettieavecnomdusite1.avif" alt="Logo Nettieverse">
+                <a href="/fr/index.html" class="header__logo-link">
+                    <img class="header__logo-image" src="/assets/img/logonettieavecnomdusite1.avif"
+                        alt="Logo Nettieverse">
+                </a>
             </div>
             <div class="header__controls">
                 <div class="header__language">
-                    <a href="/en/index.html" class="header__language-option header__language-option--inactive">ENG</a>
-                    <a href="/fr/index.html" class="header__language-option header__language-option--active">FR</a>
+                    <a href="/en/contact.html" class="header__language-option header__language-option--inactive">ENG</a>
+                    <a href="/fr/contact.html" class="header__language-option header__language-option--active">FR</a>
                 </div>
                 <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false"
                     aria-controls="mainNav">
@@ -65,56 +69,39 @@
         </ul>
     </nav>
     <main class="main">
-        <section class="hero">
-            <h1 class="hero__title">Redécouvrez celles que l'histoire a oubliées"</h1>
-            <h2 class="hero__subtitle">Nettieverse, c’est quoi ?</h2>
-            <p class="hero__intro">Nettieverse est un espace dédié aux femmes de science oubliées, celles dont les
-                découvertes ont souvent été effacées ou attribuées à d’autres. Le site tire son nom de Nettie Stevens,
-                la généticienne qui a découvert les chromosomes X et Y, mais dont le nom est resté dans l’ombre.</p>
-            <div class="hero__cta">
-                <button class="hero__button button">En savoir plus</button>
-                <img class="hero__arrow" src="/assets/img/Arrow1.svg" alt="arrow icon">
-            </div>
-            <p class="hero__description">
-                À travers des articles, des portraits et des analyses de films ou de livres, Nettieverse redonne vie à
-                ces chercheuses et à leurs histoires. L’objectif est simple : rendre visibles celles qui ont changé la
-                science sans jamais être reconnues.
-                Ici, on parle de passion, de curiosité, d’injustice, mais aussi d’espoir et d’inspiration. Parce
-                qu’avant d’être effacées, ces femmes ont avant tout fait avancer le monde.
-            </p>
-        </section>
-        <section class="discover">
-            <h2 class="discover__title">Découvrez aussi...</h2>
-            <div class="discover__grid">
-                <article class="discover-card">
-                    <img class="discover-card__image" src="/assets/img/nettie1.avif" alt="Portrait de Nettie Stevens">
-                    <div class="discover-card__body">
-                        <h6 class="discover-card__tag">Article</h6>
-                        <p class="discover-card__text">Nettie Stevens : la femme qui a découvert les chromosomes X et Y,
-                            mais que l’histoire a oubliée</p>
-                    </div>
-                    <img class="discover-card__image" src="/assets/img/effet-matilda.avif"
-                        alt="Illustration effet Matilda">
-                    <div class="discover-card__body">
-                        <h6 class="discover-card__tag">Article</h6>
-                        <p class="discover-card__text">Redonner voix aux femmes de science : l’importance de raconter
-                            leurs histoires</p>
-                    </div>
-                    <img class="discover-card__image" src="/assets/img/radioactivr-movie1.avif"
-                        alt="Affiche du film Radioactive">
-                    <div class="discover-card__body">
-                        <h6 class="discover-card__tag">Article</h6>
-                        <p class="discover-card__text">Radioactive : le film qui redonne vie à Marie Curie</p>
-                    </div>
-                    <img class="discover-card__image" src="/assets/img/femmesdesciences-annacabanel1.avif"
-                        alt="Couverture Femme et science">
-                    <div class="discover-card__body">
-                        <h6 class="discover-card__tag">Article</h6>
-                        <p class="discover-card__text">Objet BU : Femme et science : redonner leur place aux chercheuses
-                        </p>
-                    </div>
-                </article>
-            </div>
+        <h1>Restons en contact</h1>
+        <section>
+            <h2>Des questions ? Des suggestions ?</h2>
+            <p>Vous avez envie de me partager une idée, une remarque ou simplement votre avis sur Nettieverse ?
+                Je serais ravie de vous lire.
+                Que ce soit pour parler d’une femme de science oubliée, proposer une amélioration ou donner votre
+                ressenti sur le site,
+                chaque message compte pour moi.</p>
+            <h2>Formulaire de contact</h2>
+            <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                <div class="contact-form__row">
+                    <label class="contact-form__label">Nom
+                        <input class="contact-form__input" type="text" name="lastName" required>
+                    </label>
+                    <label class="contact-form__label">Prénom
+                        <input class="contact-form__input" type="text" name="firstName" required>
+                    </label>
+                </div>
+
+                <label class="contact-form__label">Email
+                    <input class="contact-form__input" type="email" name="_replyto" required>
+                </label>
+
+                <label class="contact-form__label">Objet
+                    <textarea class="contact-form__textarea" name="subject" rows="2" required></textarea>
+                </label>
+
+                <label class="contact-form__label">Message
+                    <textarea class="contact-form__textarea" name="message" rows="5" required></textarea>
+                </label>
+
+                <button type="submit" class="button contact-form__submit">Envoyer</button>
+            </form>
         </section>
     </main>
     <footer class="footer">
