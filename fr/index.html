@@ -22,7 +22,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="/src/css/style.css">
-    <script type="module" src="./src/js/script.js"></script>
+    <script type="module" src="/src/js/script.js"></script>
 </head>
 
 <body class="page page--home">
@@ -39,12 +39,27 @@
                 <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false"
                     aria-controls="mainNav">
                     <span class="menu-btn__bar menu-btn__bar--top"></span>
+                    <span class="menu-btn__bar menu-btn__bar--middle"></span>
                     <span class="menu-btn__bar menu-btn__bar--bottom"></span>
                 </button>
             </div>
         </div>
     </header>
     <nav class="nav" id="mainNav">
+        <div class="nav__top">
+            <img class="nav__logo" src="/assets/img/logonettieavecnomdusite1.avif" alt="Logo Nettieverse">
+            <div class="nav__top-group">
+                <div class="nav__language">
+                    <a href="/en/index.html" class="nav__language-option nav__language-option--inactive">ENG</a>
+                    <a href="/fr/index.html" class="nav__language-option nav__language-option--active">FR</a>
+                </div>
+                <button class="nav__close" aria-label="Fermer le menu" aria-controls="mainNav">
+                    <span class="nav__close-bar nav__close-bar--left"></span>
+                    <span class="nav__close-bar nav__close-bar--right"></span>
+                </button>
+            </div>
+        </div>
+        </div>
         <ul class="nav__list nav__list--primary">
             <li class="nav__item"><a class="nav__link" href="/fr/article1.html">Nettie Stevens, effacée de
                     l’histoire</a></li>
@@ -89,27 +104,27 @@
                 <article class="discover-card">
                     <img class="discover-card__image" src="/assets/img/nettie1.avif" alt="Portrait de Nettie Stevens">
                     <div class="discover-card__body">
-                        <h6 class="discover-card__tag">Article</h6>
+                        <h4 class="discover-card__tag">Article</h4>
                         <p class="discover-card__text">Nettie Stevens : la femme qui a découvert les chromosomes X et Y,
                             mais que l’histoire a oubliée</p>
                     </div>
                     <img class="discover-card__image" src="/assets/img/effet-matilda.avif"
                         alt="Illustration effet Matilda">
                     <div class="discover-card__body">
-                        <h6 class="discover-card__tag">Article</h6>
+                        <h4 class="discover-card__tag">Article</h4>
                         <p class="discover-card__text">Redonner voix aux femmes de science : l’importance de raconter
                             leurs histoires</p>
                     </div>
                     <img class="discover-card__image" src="/assets/img/radioactivr-movie1.avif"
                         alt="Affiche du film Radioactive">
                     <div class="discover-card__body">
-                        <h6 class="discover-card__tag">Article</h6>
+                        <h4 class="discover-card__tag">Article</h4>
                         <p class="discover-card__text">Radioactive : le film qui redonne vie à Marie Curie</p>
                     </div>
                     <img class="discover-card__image" src="/assets/img/femmesdesciences-annacabanel1.avif"
                         alt="Couverture Femme et science">
                     <div class="discover-card__body">
-                        <h6 class="discover-card__tag">Article</h6>
+                        <h4 class="discover-card__tag">Article</h4>
                         <p class="discover-card__text">Objet BU : Femme et science : redonner leur place aux chercheuses
                         </p>
                     </div>

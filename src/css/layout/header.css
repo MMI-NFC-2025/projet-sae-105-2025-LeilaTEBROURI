@@ -1,0 +1,110 @@
+.menu-btn__bar--middle {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.header {
+    width: 100%;
+    background-color: var(--main-pop-of-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: var(--space-xl) var(--space-3xl) 0 var(--space-3xl);
+    box-sizing: border-box;
+}
+
+.header__bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 4.5rem;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.header__logo-image {
+    height: 3.5rem;
+    width: auto;
+    display: block;
+}
+
+.header__controls {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2xl);
+}
+
+.header__language {
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+}
+
+.header__language-option {
+    font-family: var(--body), sans-serif;
+    font-size: var(--text-menu);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.1rem 0.5rem;
+    color: #fff;
+    opacity: 0.85;
+    letter-spacing: 0.02em;
+    transition: opacity 0.2s;
+}
+
+.header__language-option--active {
+    opacity: 1;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 2.75rem;
+    height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+    margin-left: 0;
+    margin-right: 0;
+    box-shadow: none;
+    border-radius: 50%;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.menu-btn__bar {
+    position: absolute;
+    left: 50%;
+    width: 2rem;
+    height: 0.1875rem;
+    background-color: #fff;
+    border-radius: 0.125rem;
+    box-shadow: none;
+    opacity: 1;
+    transform-origin: center;
+    transition: all 0.2s;
+}
+
+.menu-btn__bar--top {
+    top: 40%;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.menu-btn__bar--bottom {
+    top: 60%;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
