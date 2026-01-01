@@ -1,3 +1,48 @@
+a,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: var(--main-pop-of-color);
+    transition: color 0.2s;
+}
+
+a:hover,
+a:focus {
+    color: var(--main-background-color);
+    text-decoration: underline;
+    outline: none;
+}
+
 body {
     background-color: var(--main-background-color);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--titles), serif;
+}
+
+h1 {
+    font-size: var(--text-3xl);
+}
+
+h2 {
+    font-size: var(--text-2xl);
+}
+
+h3 {
+    font-size: var(--text-xl);
+}
+
+button,
+input,
+select,
+textarea {
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
 }

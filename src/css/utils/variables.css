@@ -5,6 +5,7 @@
     --main-background-color: oklch(0.97 0.0205 91.58);
     --main-pop-of-color: oklch(0.5827 0.216392 32.7584);
     --noir-de-base: oklch(0% 0 0);
+    --blanc-de-base: oklch(100% 0 0);
 
     /* police */
     --body: Poppins;
