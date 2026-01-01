@@ -2,7 +2,7 @@ a,
 a:visited,
 a:active {
     text-decoration: none;
-    color: var(--blanc-de-base);
+    color: var(--main-pop-of-color);
     transition: color 0.2s;
 }
 
@@ -14,8 +14,8 @@ a:focus {
 }
 
 body {
-    background-color: var(--main-background-color);
-    font-family: var(--body);
+    background-color: var(--main-background-col
+    font-family: var(--body);or);
 }
 
 h1,

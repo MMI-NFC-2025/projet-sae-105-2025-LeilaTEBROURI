@@ -68,7 +68,7 @@
 .nav__list {
     list-style: none;
     padding: 0 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .nav__item {
@@ -109,7 +109,7 @@
 .nav__link {
     display: block;
     padding: 1rem 0;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--body), sans-serif;
     font-size: 1.1rem;
     color: var(--blanc-de-base);
     text-decoration: none;
@@ -123,7 +123,7 @@
     overflow: hidden;
 }
 
-h3 {
-    font-weight: 900;
+.nav__list--primary {
+    font-weight: 700;
     font-size: var(--text-menu);
 }

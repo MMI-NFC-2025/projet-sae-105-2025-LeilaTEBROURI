@@ -3,7 +3,6 @@
 
 /* Utils */
 @import "utils/variables.css";
-@import "utils/utilities.css";
 
 /* Base */
 @import "base/main.css";
@@ -13,3 +12,6 @@
 @import "layout/header.css";
 @import "layout/menu.css";
 @import "layout/footer.css";
+
+/* Components */
+@import "components/hero.css";

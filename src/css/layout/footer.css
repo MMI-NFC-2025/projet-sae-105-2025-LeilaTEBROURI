@@ -1,0 +1,140 @@
+/* Footer style exactly as seen in class and matching the reference image */
+.footer {
+    background: var(--main-pop-of-color, #e33409);
+    color: #fff;
+    padding: 2.5rem 1rem 1.5rem 1rem;
+    font-family: var(--body, Arial, sans-serif);
+    margin-top: 3rem;
+}
+
+.footer__title {
+    font-size: var(--text-xl);
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    text-align: left;
+    margin-left: 0.5rem;
+    border-bottom: 3px solid #fff;
+    display: inline-block;
+    padding-bottom: 0.2rem;
+}
+
+.footer__columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    gap: 2.5rem;
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: flex-start;
+}
+
+.footer__link {
+    color: #fff;
+    font-size: var(--text-footer);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__logo {
+    width: 7rem;
+    height: 7rem;
+    object-fit: contain;
+    margin: 0 2.5rem;
+    background: none;
+}
+
+.footer__meta {
+    font-size: var(--text-footer);
+    margin: 0.2rem 0;
+    font-weight: 500;
+    text-align: center;
+}
+
+.footer__meta:first-of-type {
+    margin-top: 1.2rem;
+    font-weight: bold;
+}
+
+.footer__meta:nth-of-type(2) {
+    font-size: var(--text-footer);
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+}
+
+.footer__meta:last-of-type {
+    margin-bottom: 0;
+}
+
+.footer-separator {
+    border: none;
+    border-top: 2px solid #fff;
+    margin: 1.5rem 0 1.2rem 0;
+}
+
+@media (max-width: 700px) {
+    .footer {
+        padding: 1.1rem 0.2rem 0.7rem 0.2rem;
+        width: 100vw;
+    }
+
+    .footer__columns {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0.2rem;
+        margin-bottom: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    .footer__logo {
+        margin: 0 1.2rem;
+        width: 4.2rem;
+        height: 4.2rem;
+    }
+
+    .footer__title {
+        text-align: left;
+        margin-left: 0.5rem;
+        font-size: var(--text-xl);
+        margin-bottom: 0.8rem;
+        padding-bottom: 0.1rem;
+    }
+
+    .footer__column {
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .footer__link {
+        font-size: var(--text-footer);
+        text-align: left;
+        padding: 0.05rem 0.1rem;
+        margin: 0.05rem 0;
+    }
+
+    .footer__meta {
+        font-size: var(--text-footer);
+        margin: 0.1rem 0;
+        text-align: center;
+        word-break: break-all;
+    }
+
+    .footer__meta-petit {
+        font-size: var(--text-mentions-legales);
+        text-align: center;
+        margin: 0.05rem 0;
+    }
+}
+
+.footer__meta-petit {
+    font-size: var(--text-mentions-legales)
+}

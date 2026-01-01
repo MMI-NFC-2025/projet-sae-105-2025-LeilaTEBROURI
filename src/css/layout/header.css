@@ -1,16 +1,18 @@
 .header__menu-btn.is-open .menu-btn__bar--top {
     top: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
+    transition: top 0.3s, transform 0.3s;
 }
 
 
 .header__menu-btn.is-open .menu-btn__bar--bottom {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
+    transition: top 0.3s, transform 0.3s;
 }
 
 .menu-btn__bar {
-    transition: top 0.3s cubic-bezier(.77, 0, .18, 1), transform 0.3s cubic-bezier(.77, 0, .18, 1), opacity 0.3s cubic-bezier(.77, 0, .18, 1);
+    transition: top 0.3s, transform 0.3s, opacity 0.3s;
 }
 
 
@@ -120,10 +122,6 @@
     transition: all 0.2s;
 }
 
-.menu-btn__bar--top {
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(0deg);
-}
 
 .menu-btn__bar--top {
     top: 36%;

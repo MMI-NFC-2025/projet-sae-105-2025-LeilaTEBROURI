@@ -1,0 +1,136 @@
+@media (max-width: 700px) {
+    .hero {
+        padding-top: 0;
+    }
+
+    .hero__title {
+        margin-top: 32vh;
+    }
+}
+
+.hero {
+    position: relative;
+    width: 100vw;
+    min-height: 60vh;
+    background: url('/assets/img/hero1.avif') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2.5rem 1.2rem 2rem 1.2rem;
+    box-sizing: border-box;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.32);
+    z-index: 1;
+}
+
+.hero__title,
+.hero__subtitle,
+.hero__intro,
+.hero__description,
+.hero__cta {
+    position: relative;
+    z-index: 2;
+}
+
+.hero__title {
+    color: #fff;
+    font-family: var(--titles);
+    font-size: 2.1rem;
+    text-align: center;
+    margin-bottom: 1.2rem;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.hero__subtitle {
+    color: #fff;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 1.1rem;
+    font-weight: 400;
+}
+
+.hero__intro {
+    color: #fff;
+    font-size: 1.05rem;
+    text-align: center;
+    margin-bottom: 1.1rem;
+    font-weight: 400;
+}
+
+.hero__description {
+    color: #fff;
+    font-size: 1.05rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.hero__cta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    margin-bottom: 1.2rem;
+}
+
+.hero__button.button {
+    background: var(--main-pop-of-color, #e33409);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 0.7rem;
+    padding: 0.7rem 1.5rem;
+    margin: 0;
+    box-shadow: none;
+    border: none;
+    transition: background 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.hero__button.button:hover {
+    background: #b92a07;
+}
+
+.hero__arrow {
+    width: 1.7rem;
+    height: auto;
+}
+
+@media (max-width: 430px) {
+    .hero {
+        padding: 2.2rem 0.5rem 1.5rem 0.5rem;
+        min-height: 60vh;
+    }
+
+    .hero__title {
+        font-size: 1.5rem;
+    }
+
+    .hero__subtitle {
+        font-size: 1.1rem;
+    }
+
+    .hero__intro,
+    .hero__description {
+        font-size: 1rem;
+    }
+
+    .hero__button.button {
+        font-size: 1rem;
+        padding: 0.6rem 1.1rem;
+    }
+
+    .hero__arrow {
+        width: 1.2rem;
+    }
+}
