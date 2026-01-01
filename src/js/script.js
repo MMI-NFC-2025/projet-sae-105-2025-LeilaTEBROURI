@@ -1,11 +1,9 @@
-const nav = document.querySelector('.nav');
 const menuBtn = document.querySelector('.header__menu-btn');
 const body = document.body;
 
-if (menuBtn && nav) {
+if (menuBtn) {
     menuBtn.addEventListener('click', () => {
-        const isOpen = nav.classList.contains('nav--open');
-        nav.classList.toggle('nav--open');
+        const isOpen = body.classList.contains('menu-open');
         body.classList.toggle('menu-open');
         menuBtn.classList.toggle('is-open', !isOpen);
         menuBtn.setAttribute('aria-expanded', String(!isOpen));

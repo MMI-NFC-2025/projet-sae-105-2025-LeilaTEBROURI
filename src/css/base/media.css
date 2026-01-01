@@ -37,11 +37,6 @@ textarea {
 }
 
 @media (max-width: 430px) {
-    .header__bar {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
     .nav {
         width: 100vw;
         min-width: 0;
