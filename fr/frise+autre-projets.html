@@ -150,62 +150,82 @@
             </div>
             <p class="timeline__note">(⚠️Toutes les Matilda ne sont pas représentées dans la frise)</p>
         </section>
-        <section>
-            <h2>Autres projets</h2>
-            <p>
-                Bienvenue sur mon espace dédié aux projets !
-                Ici, vous pouvez découvrir non seulement mon travail, mais aussi explorer d’autres projets réalisés par
-                les élèves de
-                ma promotion sur différentes Matilda.
+        <section class="projects">
+            <header class="projects__header">
+                <h2 class="projects__title">Autres projets</h2>
+                <p class="projects__description">
+                    Bienvenue sur mon espace dédié aux projets !
+                    Ici, vous pouvez découvrir non seulement mon travail, mais aussi explorer d'autres projets réalisés par
+                    les élèves de
+                    ma promotion sur différentes Matilda.
 
-                Chaque projet reflète la créativité et le savoir-faire de chacun, alors n’hésitez pas à parcourir les
-                pages pour vous
-                inspirer et en apprendre davantage.
-            </p>
-        </section>
-        <section>
-            <h3>Matias Verguet Bailly – Lise Meitner</h3>
-            <figure>
-                <img src="/assets/img/lise_meitner1.avif" alt="photo de Lise Meitner">
-                <figcaption> Photo de Lise Meitner, scientifique qui a découvert la fission nucléaire.</figcaption>
-            </figure>
-            <h3>Izya Thiriet - Katherine Johnson</h3>
-            <figure>
-                <img src="/assets/img/960px-katherine_johnson_19831.avif" alt="photo de Katherine Johnson">
-                <figcaption> Photo de Katherine Johnson, mathématicienne qui a contribué aux calculs de trajectoire
-                    spatiale.</figcaption>
-            </figure>
+                    Chaque projet reflète la créativité et le savoir-faire de chacun, alors n'hésitez pas à parcourir les
+                    pages pour vous
+                    inspirer et en apprendre davantage.
+                </p>
+            </header>
+            <div class="projects__list">
+                <article class="projects__item">
+                    <h3 class="projects__item-title">Matias Verguet Bailly – Lise Meitner</h3>
+                    <figure class="projects__figure">
+                        <img class="projects__image" src="/assets/img/lise_meitner1.avif" alt="photo de Lise Meitner">
+                        <figcaption class="projects__caption">Photo de Lise Meitner, scientifique qui a découvert la fission nucléaire.</figcaption>
+                    </figure>
+                </article>
+                <article class="projects__item">
+                    <h3 class="projects__item-title">Izya Thiriet - Katherine Johnson</h3>
+                    <figure class="projects__figure">
+                        <img class="projects__image" src="/assets/img/960px-katherine_johnson_19831.avif" alt="photo de Katherine Johnson">
+                        <figcaption class="projects__caption">Photo de Katherine Johnson, mathématicienne qui a contribué aux calculs de trajectoire spatiale.</figcaption>
+                    </figure>
+                </article>
+            </div>
         </section>
         <section class="discover">
             <h2 class="discover__title">Découvrez aussi...</h2>
             <div class="discover__grid">
                 <article class="discover-card">
-                    <img class="discover-card__image" src="/assets/img/nettie1.avif" alt="Portrait de Nettie Stevens">
-                    <div class="discover-card__body">
-                        <h4 class="discover-card__tag">Article</h4>
-                        <p class="discover-card__text">Nettie Stevens : la femme qui a découvert les chromosomes X et Y,
-                            mais que l’histoire a oubliée</p>
-                    </div>
-                    <img class="discover-card__image" src="/assets/img/effet-matilda.avif"
-                        alt="Illustration effet Matilda">
-                    <div class="discover-card__body">
-                        <h4 class="discover-card__tag">Article</h4>
-                        <p class="discover-card__text">Redonner voix aux femmes de science : l’importance de raconter
-                            leurs histoires</p>
-                    </div>
-                    <img class="discover-card__image" src="/assets/img/radioactivr-movie1.avif"
-                        alt="Affiche du film Radioactive">
-                    <div class="discover-card__body">
-                        <h4 class="discover-card__tag">Article</h4>
-                        <p class="discover-card__text">Radioactive : le film qui redonne vie à Marie Curie</p>
-                    </div>
-                    <img class="discover-card__image" src="/assets/img/femmesdesciences-annacabanel1.avif"
-                        alt="Couverture Femme et science">
-                    <div class="discover-card__body">
-                        <h4 class="discover-card__tag">Article</h4>
-                        <p class="discover-card__text">Objet BU : Femme et science : redonner leur place aux chercheuses
-                        </p>
-                    </div>
+                    <a class="discover-card__link" href="/fr/article1.html">
+                        <img class="discover-card__image" src="/assets/img/nettie1.avif"
+                            alt="Portrait de Nettie Stevens">
+                        <div class="discover-card__body">
+                            <h3 class="discover-card__tag">Article</h3>
+                            <p class="discover-card__text">Nettie Stevens : la femme qui a découvert les chromosomes X
+                                et Y, mais que l’histoire a oubliée</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="discover-card">
+                    <a class="discover-card__link" href="/fr/article2.html">
+                        <img class="discover-card__image" src="/assets/img/effet-matilda.avif"
+                            alt="Illustration effet Matilda">
+                        <div class="discover-card__body">
+                            <h3 class="discover-card__tag">Article</h3>
+                            <p class="discover-card__text">Les femmes scientifiques dans la littérature : redonner leur
+                                place à celles qu’on a effacées</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="discover-card">
+                    <a class="discover-card__link" href="/fr/article3.html">
+                        <img class="discover-card__image" src="/assets/img/radioactivr-movie1.avif"
+                            alt="Affiche du film Radioactive">
+                        <div class="discover-card__body">
+                            <h3 class="discover-card__tag">Article</h3>
+                            <p class="discover-card__text">Radioactive : le film qui redonne vie à Marie Curie</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="discover-card">
+                    <a class="discover-card__link" href="/fr/article4.html">
+                        <img class="discover-card__image" src="/assets/img/femmesdesciences-annacabanel1.avif"
+                            alt="Couverture Femme et science">
+                        <div class="discover-card__body">
+                            <h3 class="discover-card__tag">Article</h3>
+                            <p class="discover-card__text">Objet BU : Femme et science : redonner leur place aux
+                                chercheuses</p>
+                        </div>
+                    </a>
                 </article>
             </div>
         </section>

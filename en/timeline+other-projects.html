@@ -36,9 +36,10 @@
             </div>
             <div class="header__controls">
                 <div class="header__language">
-                    <a href="/en/article2.html"
+                    <a href="/en/timeline+other-projects.html"
                         class="header__language-option header__language-option--inactive">ENG</a>
-                    <a href="/fr/article2.html" class="header__language-option header__language-option--active">FR</a>
+                    <a href="/fr/frise+autre-projets.html"
+                        class="header__language-option header__language-option--active">FR</a>
                 </div>
                 <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false"
                     aria-controls="mainNav">
@@ -140,26 +141,35 @@
             <p class="timeline__note">⚠️ Not every Matilda is represented in this timeline, but each one deserves to be
                 remembered.</p>
         </section>
-        <section>
-            <h2>Other projects</h2>
-            <p>
-                Welcome!
-                Here, you can discover projects from other students in my class. Each one reflects their creativity and
-                skills. Browse the Matildas and follow the links to explore their work.
-            </p>
-        </section>
-        <section>
-            <h3>Matisa Verguet Bailly – Lise Meitner</h3>
-            <figure>
-                <img src="/assets/img/lise_meitner1.avif" alt="photo of Lise Meitner">
-                <figcaption>Photo of Lise Meitner, scientist who discovered nuclear fission.</figcaption>
-            </figure>
-            <h3>Irya Thiriet – Katherine Johnson</h3>
-            <figure>
-                <img src="/assets/img/960px-katherine_johnson_19831.avif" alt="photo of Katherine Johnson">
-                <figcaption>Photo of Katherine Johnson, mathematician who contributed to space trajectory calculations.
-                </figcaption>
-            </figure>
+        <section class="projects">
+            <header class="projects__header">
+                <h2 class="projects__title">Other projects</h2>
+                <p class="projects__description">
+                    Welcome!
+                    Here, you can discover projects from other students in my class. Each one reflects their creativity
+                    and
+                    skills. Browse the Matildas and follow the links to explore their work.
+                </p>
+            </header>
+            <div class="projects__list">
+                <article class="projects__item">
+                    <h3 class="projects__item-title">Matisa Verguet Bailly – Lise Meitner</h3>
+                    <figure class="projects__figure">
+                        <img class="projects__image" src="/assets/img/lise_meitner1.avif" alt="photo of Lise Meitner">
+                        <figcaption class="projects__caption">Photo of Lise Meitner, scientist who discovered nuclear
+                            fission.</figcaption>
+                    </figure>
+                </article>
+                <article class="projects__item">
+                    <h3 class="projects__item-title">Irya Thiriet – Katherine Johnson</h3>
+                    <figure class="projects__figure">
+                        <img class="projects__image" src="/assets/img/960px-katherine_johnson_19831.avif"
+                            alt="photo of Katherine Johnson">
+                        <figcaption class="projects__caption">Photo of Katherine Johnson, mathematician who contributed
+                            to space trajectory calculations.</figcaption>
+                    </figure>
+                </article>
+            </div>
         </section>
         <section class="discover">
             <h2 class="discover__title">Discover More...</h2>

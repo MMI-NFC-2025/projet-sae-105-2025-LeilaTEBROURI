@@ -1,0 +1,9 @@
+.projects {
+    padding-top: 2rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+.projects__description {
+    font-size: var(--text-s);
+}
