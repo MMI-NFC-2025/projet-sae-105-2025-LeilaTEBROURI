@@ -1,7 +1,3 @@
-.main {
-    margin-left: 1.2rem;
-}
-
 .gallery__title {
     padding-top: 6.25rem;
 }
@@ -21,4 +17,13 @@
     transition: background-color 0.2s, transform 0.2s;
     align-self: flex-start;
     margin-top: var(--space-xl);
+    margin-bottom: var(--space-3xl);
+}
+
+.gallery__card-row {
+    display: flex;
+}
+
+.gallery__section--books {
+    font-size: var(--text-s);
 }
