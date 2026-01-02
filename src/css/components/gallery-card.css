@@ -18,6 +18,7 @@
     align-self: flex-start;
     margin-top: var(--space-xl);
     margin-bottom: var(--space-3xl);
+    margin-left: 1.2rem;
 }
 
 .gallery__card-row {
@@ -26,4 +27,12 @@
 
 .gallery__section--books {
     font-size: var(--text-s);
+}
+
+.gallery__section {
+    margin-left: 1.2rem;
+}
+
+.gallery__header {
+    margin-left: 1.2rem;
 }
