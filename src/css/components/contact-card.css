@@ -1,0 +1,101 @@
+.contact {
+    padding-top: 6.25rem;
+    margin-left: 1rem;
+    margin-right: 1.2rem;
+    padding-inline: var(--space-lg);
+}
+
+.contact__header {
+    margin-bottom: var(--space-xl);
+}
+
+.contact__title {
+    color: var(--main-pop-of-color);
+    margin-bottom: var(--space-sm);
+}
+
+.contact__subtitle {
+    margin-bottom: var(--space-sm);
+}
+
+.contact__description {
+    line-height: 1.6;
+    margin-bottom: var(--space-xl);
+    font-size: var(--text-s);
+}
+
+.contact__form-title {
+    margin-top: 3rem;
+    align-items: center;
+    font-family: var(--titles);
+    margin-bottom: var(--space-xl);
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+}
+
+.contact-form__row {
+    display: flex;
+    gap: var(--space-xl);
+}
+
+.contact-form__row .contact-form__label {
+    flex: 1;
+    min-width: 0;
+}
+
+.contact-form__row .contact-form__input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form__label {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+    font-weight: 700;
+    font-size: var(--text-s);
+}
+
+.contact-form__input,
+.contact-form__textarea {
+    width: 100%;
+    padding: var(--space-lg);
+    border: 1px solid var(--noir-de-base);
+    border-radius: 1.5rem;
+    font-family: var(--body);
+    font-size: var(--text-s);
+    background-color: var(--blanc-de-base);
+}
+
+.contact-form__textarea {
+    resize: vertical;
+    min-height: 8rem;
+}
+
+.contact-form__input:focus,
+.contact-form__textarea:focus {
+    outline: 2px solid var(--main-pop-of-color);
+    border-color: var(--main-pop-of-color);
+}
+
+.contact-form__submit {
+    align-self: flex-end;
+    padding: var(--space-lg) var(--space-4xl);
+    background-color: var(--main-pop-of-color);
+    color: var(--blanc-de-base);
+    font-weight: 600;
+    font-size: var(--text-s);
+    border-radius: 9999px;
+    margin-top: var(--space-xl);
+    transition: background-color 0.2s;
+    margin-bottom: 3rem;
+}
+
+.contact-form__submit:hover {
+    background-color: var(--article);
+}
