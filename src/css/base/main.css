@@ -41,3 +41,10 @@ textarea {
     padding: 0;
     cursor: pointer;
 }
+
+
+figcaption {
+    font-size: 0.7rem;
+    color: var(--gris);
+    margin-top: 0.5rem;
+}

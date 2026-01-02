@@ -21,6 +21,10 @@
     box-sizing: border-box;
 }
 
+.page--home .hero {
+    padding-top: calc(4.5rem + 2.5rem);
+}
+
 .hero::before {
     content: '';
     position: absolute;
@@ -109,6 +113,10 @@
     .hero {
         padding: 2.2rem 0.5rem 1.5rem 0.5rem;
         min-height: 60vh;
+    }
+
+    .page--home .hero {
+        padding-top: calc(4.5rem + 2.2rem);
     }
 
     .hero__title {

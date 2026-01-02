@@ -69,3 +69,9 @@
     margin: 0;
     color: var(--blanc-de-base);
 }
+
+.description-accueil {
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
