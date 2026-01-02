@@ -22,7 +22,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="/src/css/style.css">
-    <script type="module" src="./src/js/script.js"></script>
+    <script type="module" src="/src/js/script.js"></script>
 
 </head>
 
@@ -72,64 +72,69 @@
     </nav>
     <main class="main">
         <section class="hero">
-            <h1 class="hero__title">Tribute to the Women Who Shaped History"</h1>
+            <h1 class="hero__title">Tribute to the Women Who Shaped History</h1>
             <h2 class="hero__subtitle">What’s the Nettieverse?</h2>
-            <p class="hero__intro">Nettieverse is all about celebrating forgotten women in science, those whose
-                discoveries were often overlooked or
-                credited to someone else.
-
-                The name comes from Nettie Stevens, the geneticist who discovered the X and Y chromosomes, yet somehow
-                didn’t get the
-                recognition she deserved.</p>
+            <p class="hero__intro">Nettieverse celebrates the women scientists whose discoveries were overlooked or
+                credited to someone else. The
+                name honors Nettie Stevens, the geneticist who identified the X and Y chromosomes yet remained in the
+                shadows.</p>
             <div class="hero__cta">
-                <button class="hero__button button">Learn More</button>
-                <img class="hero__arrow" src="/assets/img/Arrow1.svg" alt="arrow icon">
+                <button class="hero__button button">Learn More <img class="hero__arrow" src="/assets/img/Arrow1.svg"
+                        alt="arrow icon"></button>
             </div>
-            <p class="hero__description">
-                Through articles, profiles, and reviews of films and books, Nettieverse brings these brilliant women and
-                their stories
-                back into the spotlight.
-
-                Our mission is simple: to give visibility to the women who changed science without ever getting the
-                credit they
-                deserved.
-
-                Here, we talk about passion, curiosity, unfairness, but also hope and inspiration.
-                Because before they were erased from history, these women were busy changing the world.
-            </p>
         </section>
+        <p class="description-accueil">
+            Through articles, portraits, and reviews of films or books, Nettieverse brings these researchers and their
+            stories back into the spotlight. The goal is simple: make visible the women who transformed science without
+            recognition. We talk about passion, curiosity, injustice, but also hope and inspiration. Before they were
+            erased, these women were already changing the world.
+        </p>
         <section class="discover">
             <h2 class="discover__title">Discover More...</h2>
             <div class="discover__grid">
                 <article class="discover-card">
-                    <img class="discover-card__image" src="/assets/img/nettie1.avif" alt="Portrait de Nettie Stevens">
-                    <div class="discover-card__body">
-                        <h4 class="discover-card__tag">Article</h4>
-                        <p class="discover-card__text">Nettie Stevens: The Woman Behind the Discovery of X and Y
-                            Chromosomes Who Was Forgotten by History</p>
-                    </div>
-                    <img class="discover-card__image" src="/assets/img/effet-matilda.avif"
-                        alt="Illustration effet Matilda">
-                    <div class="discover-card__body">
-                        <h4 class="discover-card__tag">Article</h4>
-                        <p class="discover-card__text">Women Scientists in Literature: Restoring the Voices of Those
-                            Erased</p>
-                    </div>
-                    <img class="discover-card__image" src="/assets/img/radioactivr-movie1.avif"
-                        alt="Affiche du film Radioactive">
-                    <div class="discover-card__body">
-                        <h4 class="discover-card__tag">Article</h4>
-                        <p class="discover-card__text">Radioactive: The Film That Brings Marie Curie’s Story Back to
-                            Life</p>
-                    </div>
-                    <img class="discover-card__image" src="/assets/img/femmesdesciences-annacabanel1.avif"
-                        alt="Couverture Femme et science">
-                    <div class="discover-card__body">
-                        <h4 class="discover-card__tag">Article</h4>
-                        <p class="discover-card__text">College library doc :Women and Science: Restoring the Place of
-                            Female Researchers
-                        </p>
-                    </div>
+                    <a class="discover-card__link" href="/en/article1.html">
+                        <img class="discover-card__image" src="/assets/img/nettie1.avif"
+                            alt="Portrait of Nettie Stevens">
+                        <div class="discover-card__body">
+                            <h3 class="discover-card__tag">Article</h3>
+                            <p class="discover-card__text">Nettie Stevens: The woman who discovered the X and Y
+                                chromosomes but was forgotten by history</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="discover-card">
+                    <a class="discover-card__link" href="/en/article2.html">
+                        <img class="discover-card__image" src="/assets/img/effet-matilda.avif"
+                            alt="Illustration of the Matilda effect">
+                        <div class="discover-card__body">
+                            <h3 class="discover-card__tag">Article</h3>
+                            <p class="discover-card__text">Women scientists in literature: giving back the voices we
+                                erased</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="discover-card">
+                    <a class="discover-card__link" href="/en/article3.html">
+                        <img class="discover-card__image" src="/assets/img/radioactivr-movie1.avif"
+                            alt="Radioactive movie poster">
+                        <div class="discover-card__body">
+                            <h3 class="discover-card__tag">Article</h3>
+                            <p class="discover-card__text">Radioactive: the film that brings Marie Curie back to life
+                            </p>
+                        </div>
+                    </a>
+                </article>
+                <article class="discover-card">
+                    <a class="discover-card__link" href="/en/article4.html">
+                        <img class="discover-card__image" src="/assets/img/femmesdesciences-annacabanel1.avif"
+                            alt="Women and Science book cover">
+                        <div class="discover-card__body">
+                            <h3 class="discover-card__tag">Article</h3>
+                            <p class="discover-card__text">Library spotlight: Women and Science—restoring the place of
+                                female researchers</p>
+                        </div>
+                    </a>
                 </article>
             </div>
         </section>
@@ -138,16 +143,15 @@
         <h3 class="footer__title">Helpful Links</h3>
         <div class="footer__columns">
             <div class="footer__column">
-                <a class="footer__link" href="/fr/apropos.html">The Matildas Timeline</a>
-                <a class="footer__link" href="/fr/contact.html">Movies, Series & Books
-                    Gallery</a>
-                <a class="footer__link" href="/fr/mentions-legales.html">Glossary</a>
+                <a class="footer__link" href="/en/timeline+other-projects.html">The Matilda Timeline</a>
+                <a class="footer__link" href="/en/gallery.html">Movies, Series & Books Gallery</a>
+                <a class="footer__link" href="/en/glossary.html">Glossary</a>
             </div>
-            <img class="footer__logo" src="/assets/img/logo-footer.avif" alt="logo du site nettieverse">
+            <img class="footer__logo" src="/assets/img/logo-footer.avif" alt="Nettieverse logo">
             <div class="footer__column">
-                <a class="footer__link" href="/fr/apropos.html">About Us</a>
-                <a class="footer__link" href="/fr/contact.html">Contact Us</a>
-                <a class="footer__link" href="/fr/mentions-legales.html">Other Projects</a>
+                <a class="footer__link" href="/en/about.html">About Us</a>
+                <a class="footer__link" href="/en/contact.html">Contact Us</a>
+                <a class="footer__link" href="/en/timeline+other-projects.html">Other Projects</a>
             </div>
         </div>
         <p class="footer__meta">Leila Tebrouri MMI1 C2</p>

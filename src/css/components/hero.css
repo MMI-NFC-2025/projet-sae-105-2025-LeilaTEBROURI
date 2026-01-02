@@ -4,7 +4,7 @@
     }
 
     .hero__title {
-        margin-top: 32vh;
+        margin-top: 36vh;
     }
 }
 
@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     padding: 2.5rem 1.2rem 2rem 1.2rem;
     box-sizing: border-box;
 }
@@ -36,22 +36,24 @@
 .hero__cta {
     position: relative;
     z-index: 2;
+    margin-left: 1rem;
 }
 
 .hero__title {
     color: #fff;
     font-family: var(--titles);
     font-size: 2.1rem;
-    text-align: center;
     margin-bottom: 1.2rem;
     font-weight: bold;
     line-height: 1.1;
+    text-align: center;
+    margin-left: 0;
 }
 
 .hero__subtitle {
     color: #fff;
     font-size: 1.25rem;
-    text-align: center;
+
     margin-bottom: 1.1rem;
     font-weight: 400;
 }
@@ -59,15 +61,16 @@
 .hero__intro {
     color: #fff;
     font-size: 1.05rem;
-    text-align: center;
+
     margin-bottom: 1.1rem;
     font-weight: 400;
 }
 
 .hero__description {
-    color: #fff;
+    background-color: var(--main-background-color);
+    color: var(--noir-de-base);
     font-size: 1.05rem;
-    text-align: center;
+
     margin-bottom: 1.5rem;
     font-weight: 400;
 }
@@ -82,9 +85,9 @@
 }
 
 .hero__button.button {
-    background: var(--main-pop-of-color, #e33409);
-    color: #fff;
-    font-size: 1.1rem;
+    background: var(--main-pop-of-color);
+    color: var(--blanc-de-base);
+    font-size: 0.625rem;
     font-weight: bold;
     border-radius: 0.7rem;
     padding: 0.7rem 1.5rem;
@@ -95,10 +98,6 @@
     display: inline-flex;
     align-items: center;
     gap: 0.6rem;
-}
-
-.hero__button.button:hover {
-    background: #b92a07;
 }
 
 .hero__arrow {

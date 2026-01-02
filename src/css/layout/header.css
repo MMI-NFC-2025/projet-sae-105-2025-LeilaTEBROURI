@@ -18,7 +18,7 @@
 
 .header {
     width: 100%;
-    background-color: var(--main-pop-of-color);
+    background: transparent;
     position: fixed;
     top: 0;
     left: 0;
@@ -26,6 +26,15 @@
     z-index: 1000;
     padding: var(--space-xl) var(--space-3xl) 0 var(--space-3xl);
     box-sizing: border-box;
+    transition: background 0.3s, opacity 0.3s, transform 0.3s;
+}
+
+.header--scrolled {
+    background: var(--main-pop-of-color, #e33409);
+}
+
+body:not(.page--home) .header {
+    background: var(--main-pop-of-color, #e33409);
 }
 
 .header__bar {
@@ -45,7 +54,7 @@
 }
 
 .header__logo-image {
-    height: 3.5rem;
+    height: 4.6rem;
     width: auto;
     display: block;
 }
@@ -132,9 +141,4 @@
 .menu-btn__bar--bottom {
     top: 64%;
     transform: translate(-50%, -50%) rotate(0deg);
-}
-
-.header__logo-image {
-    height: 4.6rem;
-    width: auto;
 }

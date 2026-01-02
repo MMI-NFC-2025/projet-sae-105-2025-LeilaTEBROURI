@@ -2,20 +2,14 @@ a,
 a:visited,
 a:active {
     text-decoration: none;
-    color: var(--main-pop-of-color);
     transition: color 0.2s;
 }
 
-a:hover,
-a:focus {
-    color: var(--main-background-color);
-    text-decoration: underline;
-    outline: none;
-}
+
 
 body {
-    background-color: var(--main-background-col
-    font-family: var(--body);or);
+    background-color: var(--main-background-color);
+    font-family: var(--body);
 }
 
 h1,

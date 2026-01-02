@@ -3,7 +3,6 @@
     top: 0;
     width: 100%;
     z-index: 1000;
-    background: var(--main-pop-of-color);
 }
 
 .menu-btn {
