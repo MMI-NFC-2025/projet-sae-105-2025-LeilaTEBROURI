@@ -1,3 +1,43 @@
-.gallery__header {
+.glossaire__header {
     padding-top: 6.5rem;
+}
+
+.glossary-link {
+    color: var(--main-pop-of-color);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 2px;
+    transition: color 0.2s, text-decoration-color 0.2s;
+}
+
+.glossary-link:hover {
+    color: var(--article);
+    text-decoration-style: solid;
+}
+
+.glossaire__item:target {
+    background-color: rgba(var(--main-pop-of-color-rgb, 200, 50, 50), 0.15);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    animation: highlight-pulse 2s ease-out;
+}
+
+@keyframes highlight-pulse {
+    0% {
+        background-color: rgba(var(--main-pop-of-color-rgb, 200, 50, 50), 0.4);
+    }
+
+    100% {
+        background-color: rgba(var(--main-pop-of-color-rgb, 200, 50, 50), 0.15);
+    }
+}
+
+.glossaire__section {
+    margin-left: 1.2rem;
+    margin-right: 1rem;
+    font-size: var(--text-m);
+}
+
+.glossaire__item {
+    margin-bottom: 1.5rem;
 }

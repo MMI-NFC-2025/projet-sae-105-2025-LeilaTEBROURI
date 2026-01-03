@@ -133,12 +133,12 @@ body:not(.page--home) .header {
 
 
 .menu-btn__bar--top {
-    top: 36%;
+    top: 40%;
     transform: translate(-50%, -50%) rotate(0deg);
 }
 
 
 .menu-btn__bar--bottom {
-    top: 64%;
+    top: 60%;
     transform: translate(-50%, -50%) rotate(0deg);
 }
