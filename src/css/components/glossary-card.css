@@ -11,7 +11,7 @@
 }
 
 .glossaire__item:target {
-    background-color: rgba(var(--main-pop-of-color-rgb, 200, 50, 50), 0.15);
+    background-color: #c44b2426;
     border-radius: 0.5rem;
     padding: 0.5rem;
     animation: highlight-pulse 2s ease-out;
@@ -19,18 +19,18 @@
 
 @keyframes highlight-pulse {
     0% {
-        background-color: rgba(var(--main-pop-of-color-rgb, 200, 50, 50), 0.4);
+        background-color: #c44b2466;
     }
 
     100% {
-        background-color: rgba(var(--main-pop-of-color-rgb, 200, 50, 50), 0.15);
+        background-color: #c44b2426;
     }
 }
 
 .glossaire__section {
     margin-left: 1.2rem;
     margin-right: 1rem;
-    font-size: var(--text-m);
+    font-size: var(--text-s);
 }
 
 .glossaire__item {
