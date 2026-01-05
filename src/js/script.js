@@ -166,4 +166,4 @@ function initGlossaryLinks() {
     });
 }
 
-document.addEventListener('DOMContentLoaded', initGlossaryLinks);
+initGlossaryLinks();
