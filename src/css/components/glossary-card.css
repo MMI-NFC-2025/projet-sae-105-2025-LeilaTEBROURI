@@ -10,11 +10,6 @@
     transition: color 0.2s, text-decoration-color 0.2s;
 }
 
-.glossary-link:hover {
-    color: var(--article);
-    text-decoration-style: solid;
-}
-
 .glossaire__item:target {
     background-color: rgba(var(--main-pop-of-color-rgb, 200, 50, 50), 0.15);
     border-radius: 0.5rem;
