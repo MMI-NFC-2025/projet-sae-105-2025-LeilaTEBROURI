@@ -1,10 +1,11 @@
 :root {
     --article: oklch(0.4299 0.1561 33.62);
-    --gris: oklch(0.5208 0 0);
+    --gris: oklch(0.5899 0.0125 89.78);
     --main-background-color: oklch(0.97 0.0205 91.58);
     --main-pop-of-color: oklch(0.5827 0.216392 32.7584);
-    --noir-de-base: oklch(0% 0 0);
-    --blanc-de-base: oklch(100% 0 0);
+    --pop-of-color-light: oklch(0.77 0.1308 71.23);
+    --noir-de-base: oklch(0 0 0);
+    --blanc-de-base: oklch(1 0 0);
 
     --body: Poppins;
     --titles: Merriweather;

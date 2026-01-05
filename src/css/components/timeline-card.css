@@ -32,7 +32,7 @@
     height: calc(100% - 1rem);
     background: linear-gradient(to bottom,
             var(--main-pop-of-color) 0%,
-            oklch(75% 0.18 60) 100%);
+            var(--pop-of-color-light) 100%);
     border-radius: 9999px 9999px 0 0;
 }
 
@@ -46,7 +46,7 @@
     height: 0;
     border-left: 0.55rem solid transparent;
     border-right: 0.55rem solid transparent;
-    border-top: 0.9rem solid oklch(75% 0.18 60);
+    border-top: 0.9rem solid var(--pop-of-color-light);
 }
 
 .timeline__item {
