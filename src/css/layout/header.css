@@ -30,11 +30,11 @@
 }
 
 .header--scrolled {
-    background: var(--main-pop-of-color, #e33409);
+    background: var(--main-pop-of-color);
 }
 
 body:not(.page--home) .header {
-    background: var(--main-pop-of-color, #e33409);
+    background: var(--main-pop-of-color);
 }
 
 .header__bar {
@@ -77,7 +77,7 @@ body:not(.page--home) .header {
     font-weight: 700;
     text-decoration: none;
     padding: 0.1rem 0.5rem;
-    color: #fff;
+    color: var(--blanc-de-base);
     opacity: 0.85;
     letter-spacing: 0.02em;
     transition: opacity 0.2s;
@@ -89,8 +89,12 @@ body:not(.page--home) .header {
 
 .header__language-option--active {
     opacity: 1;
-    color: #fff;
+    color: var(--blanc-de-base);
     text-decoration: none;
+}
+
+.header__language-option--inactive {
+    opacity: 0.6;
 }
 
 .header__menu-btn {
