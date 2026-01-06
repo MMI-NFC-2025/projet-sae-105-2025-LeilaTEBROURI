@@ -5,3 +5,11 @@
 .article--full {
     margin-left: 1.2rem;
 }
+
+.article__author {
+    font-size: var(--text-s);
+}
+
+.article__reading-time {
+    font-size: var(--text-s);
+}
