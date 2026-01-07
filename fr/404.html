@@ -4,26 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NETTIEVERSE - Contact</title>
-    <meta name="description"
-        content=" Contactez-nous pour toute question, suggestion ou retour concernant Nettieverse. Nous serions ravis de vous lire et d'échanger avec vous sur les femmes de science oubliées et l'effet Matilda.">
-
-    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
-    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
-    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-
+    <title>404 - Page non trouvée | Nettieverse</title>
+    <meta name="description" content="Erreur 404 : la page demandée n'existe pas sur Nettieverse.">
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96">
     <link rel="stylesheet" href="/src/css/style.css">
-    <script type="module" src="/src/js/script.js"></script>
-
+    <link rel="stylesheet" href="/src/css/components/404.css">
 </head>
 
 <body class="page">
@@ -37,8 +22,8 @@
             </div>
             <div class="header__controls">
                 <div class="header__language">
-                    <a href="/en/contact.html" class="header__language-option header__language-option--inactive">ENG</a>
-                    <a href="/fr/contact.html" class="header__language-option header__language-option--active">FR</a>
+                    <a href="/en/404.html" class="header__language-option header__language-option--inactive">ENG</a>
+                    <a href="/fr/404.html" class="header__language-option header__language-option--active">FR</a>
                 </div>
                 <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false"
                     aria-controls="mainNav">
@@ -69,47 +54,14 @@
             </li>
         </ul>
     </nav>
-    <main class="main">
-        <section class="contact">
-            <header class="contact__header">
-                <h1 class="contact__title">Restons en contact</h1>
-                <h2 class="contact__subtitle">Des questions ? Des suggestions ?</h2>
-                <p class="contact__description">Vous avez envie de me partager une idée, une remarque ou simplement
-                    votre avis sur Nettieverse ?
-                    Je serais ravie de vous lire.
-                    Que ce soit pour parler d'une femme de science oubliée, proposer une amélioration ou donner votre
-                    ressenti sur le site,
-                    chaque message compte pour moi.</p>
-            </header>
-            <h2 class="contact__form-title">Formulaire de contact</h2>
-            <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
-                <div class="contact-form__row">
-                    <label class="contact-form__label">Nom
-                        <input class="contact-form__input" type="text" name="lastName" required>
-                    </label>
-                    <label class="contact-form__label">Prénom
-                        <input class="contact-form__input" type="text" name="firstName" required>
-                    </label>
-                </div>
-
-                <label class="contact-form__label">Email
-                    <input class="contact-form__input" type="email" name="_replyto" required>
-                </label>
-
-                <label class="contact-form__label">Objet
-                    <textarea class="contact-form__textarea" name="subject" rows="2" required></textarea>
-                </label>
-
-                <label class="contact-form__label">Message
-                    <textarea class="contact-form__textarea" name="message" rows="5" required></textarea>
-                </label>
-
-                <button type="submit" class="button contact-form__submit">Envoyer</button>
-            </form>
-        </section>
+    <main class="main page-404-main">
+        <h1 class="page-404-title">404</h1>
+        <h2 class="page-404-subtitle">Page non trouvée</h2>
+        <p class="page-404-text">Oups ! La page que vous cherchez n'existe pas ou a été déplacée.</p>
+        <a href="/fr/index.html" class="button page-404-home-btn">Retour à l'accueil</a>
     </main>
     <footer class="footer">
-        <h3 class="footer__title">Nos liens utiles</h3>
+        <h2 class="footer__title">Nos liens utiles</h2>
         <div class="footer__columns">
             <div class="footer__column">
                 <a class="footer__link" href="/fr/frise+autre-projets.html">Frise des Matilda</a>
@@ -129,7 +81,6 @@
         <p class="footer__meta"><a href="/fr/mentions-legales.html">Mentions légales</a></p>
         <p class="footer__meta">Copyright © 2025 Nettieverse │</p>
     </footer>
-
 </body>
 
 </html>

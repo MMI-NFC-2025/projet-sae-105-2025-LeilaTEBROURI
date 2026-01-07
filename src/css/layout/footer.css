@@ -73,6 +73,16 @@
     margin-bottom: 0;
 }
 
+.footer__meta a {
+    color: var(--blanc-de-base) !important;
+    text-decoration: none;
+    cursor: default;
+}
+
+.footer__meta a:hover {
+    text-decoration: underline;
+}
+
 .footer-separator {
     border: none;
     border-top: 2px solid #fff;

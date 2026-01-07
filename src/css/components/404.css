@@ -1,0 +1,36 @@
+.page-404-main {
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.page-404-title {
+    font-size: var(--text-5xl);
+    margin-bottom: 1.5rem;
+}
+
+.page-404-subtitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.page-404-text {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.page-404-home-btn {
+    font-size: 1.1rem;
+    padding: 0.7rem 1.5rem;
+    background: var(--main-pop-of-color);
+    color: var(--blanc-de-base);
+    border-radius: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.2s;
+}
+
+.page-404-home-btn:hover,
+.page-404-home-btn:focus {
+    background: var(--main-pop-of-color-hover, #b35c9c);
+    text-decoration: underline;
+}
