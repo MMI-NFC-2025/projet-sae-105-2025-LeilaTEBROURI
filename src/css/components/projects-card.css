@@ -1,3 +1,21 @@
+a.button {
+    background: var(--main-pop-of-color);
+    color: var(--blanc-de-base);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.7rem;
+    padding: 0.6rem 1.1rem;
+    margin: 0.5rem 0 1.2rem 0;
+    box-shadow: none;
+    border: none;
+    transition: background 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .projects {
     padding-top: 2rem;
     margin-left: 1.2rem;
